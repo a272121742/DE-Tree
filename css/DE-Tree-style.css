@@ -1,0 +1,46 @@
+li.tree-node > span.tree-checkbox input {
+  height: 15px;
+  width: 15px;
+}
+ul.tree-root > li.tree-node {
+  list-style-type: none;
+  float:left;
+  clear:left;
+}
+li.tree-node > ul.tree-root {
+  padding-left: 15px;
+}
+li.tree-node > span:before {
+  /*padding-right: 4px;*/
+}
+li.node-collapse > ul.tree-root, li > ul.tree-root {
+  display: none;
+}
+li.node-expand > ul.tree-root {
+  display: block;
+}
+li.node-highlight > span{
+  color : #0088cc;
+}
+li.node-highlight > span > a.node-highlight-el{
+  color : orange;
+}
+li.tree-node > span.glyphicon-folder-open, 
+li.tree-node > span.glyphicon-folder-close {
+  cursor:pointer;
+}
+
+li.tree-node a{
+  /*margin-left: 8px;*/
+}
+
+li.tree-node > span > a{
+  text-decoration: none;
+  color:black;
+}
+li.tree-node > span.tree-link > a[href]:hover {
+  cursor:pointer;
+  color : #2f96b4;
+  font-weight: bolder;
+  text-decoration: underline;
+}
